@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Project Store</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header>
+    <h1>Dark Project - Online Store</h1>
+  </header>
+
+  <!-- Кнопка смены темы -->
+  <div class="theme-toggle">
+    <button onclick="toggleTheme()">Switch Theme</button>
+  </div>
+
+  <!-- Сообщение после покупки -->
+  <div id="thankYou" class="thank-you-message">Thank you for your purchase!</div>
+
+  <!-- Продукты -->
+  <div class="products">
+    <div class="product">
+      <img src="images/keyboard.jpg" alt="Keyboard">
+      <h3>Dark Project DKG87</h3>
+      <p class="desc">A high-performance mechanical keyboard...</p>
+      <p><strong>$89</strong></p>
+      <button class="buy-btn" onclick="showThankYou()">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="images/mouse.jpg" alt="Mouse">
+      <h3>Dark Project ME4</h3>
+      <p class="desc">Lightweight gaming mouse...</p>
+      <p><strong>$49</strong></p>
+      <button class="buy-btn" onclick="showThankYou()">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="images/headset.jpg" alt="Headset">
+      <h3>Dark Project HS1</h3>
+      <p class="desc">Comfortable over-ear headset...</p>
+      <p><strong>$69</strong></p>
+      <button class="buy-btn" onclick="showThankYou()">Buy Now</button>
+    </div>
+  </div>
+
+</body>
+</html>
